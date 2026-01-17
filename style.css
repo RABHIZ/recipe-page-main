@@ -1,0 +1,120 @@
+:root{
+--stone-100: hsl(30, 54%, 90%);
+--stone-150: hsl(30, 18%, 87%);
+--stone-600: hsl(30, 10%, 34%);
+--stone-900: hsl(24, 5%, 18%);
+--brown-800: hsl(14, 45%, 36%);
+--rose-800:  hsl(332, 51%, 32%);
+--rose-50:   hsl(330, 100%, 98%);
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 100 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: young;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-style: normal;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--stone-100);
+    font-family: outfit;
+    font-weight: 200;
+
+}
+p{
+    text-align: justify;
+    font-size: 13px;
+}
+
+.main-page{
+    width: 600px;
+    background-color:white ;
+    display: grid;
+    border-radius: 16px;
+}
+
+img {
+    width: 100%;
+    border-radius: 16px;
+    justify-self: center;
+    
+}
+hr{
+    color: var(--stone-150);
+    opacity: 50%;
+    width: 90%;
+}
+
+.space{
+    margin: 30px;
+}
+.pre-time{
+    background-color: var(--rose-50);
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 12px;
+}
+
+h2{
+    font-size: 1rem;
+    color: var(--brown-800);
+   
+}
+h3{
+    font-size: 1.4rem;
+    font-family: young;
+    font-weight: 100;
+    color: var(--rose-800);
+     
+}
+h1{
+    font-family: young;
+    font-weight: 300;
+}
+
+li{
+    font-size: 14px;
+}
+
+ol li::marker{
+    color: var(--rose-800);
+    font-weight: bold;
+}
+
+ul li::marker{
+    color: var(--rose-800);
+}
+
+ol li{
+    padding-left: 20px;
+}
+ul li{
+    padding-left:20px;
+}
+
+table{
+    
+    border-collapse: collapse;
+    width:100%;
+}
+tr{
+    color: var(--brown-800);
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+td{
+    padding: 5px;
+}
+tr:not(:last-child) {
+  box-shadow: inset 0 -1px 0 #ccc;
+ 
+}
