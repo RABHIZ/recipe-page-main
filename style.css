@@ -22,12 +22,9 @@
 body{
     display: flex;
     justify-content: center;
-    
-    
     background-color: var(--stone-100);
     font-family: outfit;
     font-weight: 200;
-
 }
 p{
     text-align: justify;
@@ -39,6 +36,7 @@ p{
     background-color:white ;
     display: grid;
     border-radius: 16px;
+    margin: 15rem;
     
 }
 
